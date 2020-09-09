@@ -309,13 +309,13 @@
         <ul class="search-results"></ul>
       <ul id="toc" class="toc-list-h1">
           <li>
-            <a href="#watcher-info-api" class="toc-h1 toc-link" data-title="Watcher Info API">Watcher Info API</a>
+            <a href="#rick-api" class="toc-h1 toc-link" data-title="Rick API">Rick API</a>
           </li>
           <li>
             <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
           </li>
           <li>
-            <a href="#watcher-security-api" class="toc-h1 toc-link" data-title="Watcher Security API">Watcher Security API</a>
+            <a href="#morty-api" class="toc-h1 toc-link" data-title="Morty API">Morty API</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#kittens" class="toc-h2 toc-link" data-title="Kittens">Kittens</a>
@@ -340,7 +340,7 @@
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='watcher-info-api'>Watcher Info API</h1>
+        <h1 id='rick-api'>Rick API</h1>
 <p>Welcome to the Rick&amp;Morty API! You can use our API to access Rick&amp;Morty API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
 
 <p>We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
@@ -376,7 +376,7 @@ curl <span class="s2">"api_endpoint_here"</span>
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
-<h1 id='watcher-security-api'>Watcher Security API</h1><h2 id='kittens'>Kittens</h2><h3 id='get-all-kittens'>Get All Kittens</h3><div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+<h1 id='morty-api'>Morty API</h1><h2 id='kittens'>Kittens</h2><h3 id='get-all-kittens'>Get All Kittens</h3><div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
 
 <span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
 <span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
