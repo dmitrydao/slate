@@ -19,7 +19,7 @@ search: true
 code_clipboard: true
 ---
 
-# Watcher Info API
+# Rick API
 
 Welcome to the Rick&Morty API! You can use our API to access Rick&Morty API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
@@ -67,7 +67,7 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Watcher Security API
+# Morty API
 
 ## Kittens 
 ### Get All Kittens
